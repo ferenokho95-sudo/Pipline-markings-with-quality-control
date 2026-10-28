@@ -1,0 +1,9 @@
+<View>
+  <Header value="Есть ли предложение продолжить общение вне площадки?"/>
+  <Text name="text" value="$text"/>
+  <Choices name="label" toName="text" choice="single" required="true">
+    <Choice value="on_platform"/>
+    <Choice value="off_platform"/>
+    <Choice value="uncertain"/>
+  </Choices>
+</View>

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "demo-03",
+    "text": "Номер заказа 89261234567, проверь статус",
+    "reasons": [
+      "human_disagreement"
+    ]
+  },
+  {
+    "id": "demo-04",
+    "text": "Пиши на user [собака] example [точка] invalid",
+    "reasons": [
+      "prediction_differs_from_gold"
+    ]
+  },
+  {
+    "id": "demo-06",
+    "text": "Пришли телефон, свяжемся напрямую",
+    "reasons": [
+      "judge_differs_from_manual"
+    ]
+  },
+  {
+    "id": "demo-08",
+    "text": "Давай продолжим по почте user@example.invalid",
+    "reasons": [
+      "judge_uncertain"
+    ]
+  },
+  {
+    "id": "demo-10",
+    "text": "Позвони на +0 000 000 00 00, обсудим заказ",
+    "reasons": [
+      "human_disagreement"
+    ]
+  },
+  {
+    "id": "demo-11",
+    "text": "Мне удобно переписываться только на площадке",
+    "reasons": [
+      "prediction_differs_from_gold",
+      "judge_differs_from_manual"
+    ]
+  }
+]

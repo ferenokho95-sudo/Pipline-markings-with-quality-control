@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "text": "Обсудим доставку здесь, в чате площадки",
+      "external_id": "demo-01"
+    },
+    "annotations": [
+      {
+        "id": 1,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "data": {
+      "text": "Напиши мне в Telegram: @example_user",
+      "external_id": "demo-02"
+    },
+    "annotations": [
+      {
+        "id": 4,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "data": {
+      "text": "Номер заказа 89261234567, проверь статус",
+      "external_id": "demo-03"
+    },
+    "annotations": [
+      {
+        "id": 7,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "data": {
+      "text": "Пиши на user [собака] example [точка] invalid",
+      "external_id": "demo-04"
+    },
+    "annotations": [
+      {
+        "id": 10,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "data": {
+      "text": "Не переходи в WhatsApp, остаёмся здесь",
+      "external_id": "demo-05"
+    },
+    "annotations": [
+      {
+        "id": 13,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "data": {
+      "text": "Пришли телефон, свяжемся напрямую",
+      "external_id": "demo-06"
+    },
+    "annotations": [
+      {
+        "id": 16,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "data": {
+      "text": "Как настроить уведомления в Telegram?",
+      "external_id": "demo-07"
+    },
+    "annotations": [
+      {
+        "id": 19,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "data": {
+      "text": "Давай продолжим по почте user@example.invalid",
+      "external_id": "demo-08"
+    },
+    "annotations": [
+      {
+        "id": 22,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "data": {
+      "text": "В инструкции указан сайт example.invalid",
+      "external_id": "demo-09"
+    },
+    "annotations": [
+      {
+        "id": 25,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "data": {
+      "text": "Позвони на +0 000 000 00 00, обсудим заказ",
+      "external_id": "demo-10"
+    },
+    "annotations": [
+      {
+        "id": 28,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "data": {
+      "text": "Мне удобно переписываться только на площадке",
+      "external_id": "demo-11"
+    },
+    "annotations": [
+      {
+        "id": 31,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "on_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "data": {
+      "text": "Добавляйся в Signal и отправь детали там",
+      "external_id": "demo-12"
+    },
+    "annotations": [
+      {
+        "id": 34,
+        "completed_by": 1,
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "completed_by": {
+          "id": 2
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "completed_by": 3,
+        "was_cancelled": false,
+        "ground_truth": true,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "off_platform"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

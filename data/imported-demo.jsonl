@@ -1,0 +1,12 @@
+{"id":"demo-01","text":"Обсудим доставку здесь, в чате площадки","annotations":{"1":"on_platform","2":"on_platform"},"gold":"on_platform"}
+{"id":"demo-02","text":"Напиши мне в Telegram: @example_user","annotations":{"1":"off_platform","2":"off_platform"},"gold":"off_platform"}
+{"id":"demo-03","text":"Номер заказа 89261234567, проверь статус","annotations":{"1":"on_platform","2":"off_platform"},"gold":"on_platform"}
+{"id":"demo-04","text":"Пиши на user [собака] example [точка] invalid","annotations":{"1":"off_platform","2":"off_platform"},"gold":"off_platform"}
+{"id":"demo-05","text":"Не переходи в WhatsApp, остаёмся здесь","annotations":{"1":"on_platform","2":"on_platform"},"gold":"on_platform"}
+{"id":"demo-06","text":"Пришли телефон, свяжемся напрямую","annotations":{"1":"off_platform","2":"off_platform"},"gold":"off_platform"}
+{"id":"demo-07","text":"Как настроить уведомления в Telegram?","annotations":{"1":"on_platform","2":"on_platform"},"gold":"on_platform"}
+{"id":"demo-08","text":"Давай продолжим по почте user@example.invalid","annotations":{"1":"off_platform","2":"off_platform"},"gold":"off_platform"}
+{"id":"demo-09","text":"В инструкции указан сайт example.invalid","annotations":{"1":"on_platform","2":"on_platform"},"gold":"on_platform"}
+{"id":"demo-10","text":"Позвони на +0 000 000 00 00, обсудим заказ","annotations":{"1":"off_platform","2":"on_platform"},"gold":"off_platform"}
+{"id":"demo-11","text":"Мне удобно переписываться только на площадке","annotations":{"1":"on_platform","2":"on_platform"},"gold":"on_platform"}
+{"id":"demo-12","text":"Добавляйся в Signal и отправь детали там","annotations":{"1":"off_platform","2":"off_platform"},"gold":"off_platform"}

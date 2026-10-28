@@ -1,0 +1,89 @@
+{
+  "total_records": 12,
+  "annotator_a": "1",
+  "annotator_b": "2",
+  "human_pair": {
+    "n": 12,
+    "matches": 10,
+    "agreement": 0.8333333333333334,
+    "cohen_kappa": 0.6666666666666667,
+    "status": "ok",
+    "labels": [
+      "off_platform",
+      "on_platform"
+    ],
+    "confusion": [
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ]
+  },
+  "human_pair_coverage": 1,
+  "prediction_vs_expert_gold": {
+    "n": 12,
+    "matches": 10,
+    "agreement": 0.8333333333333334,
+    "cohen_kappa": 0.6666666666666667,
+    "status": "ok",
+    "labels": [
+      "off_platform",
+      "on_platform"
+    ],
+    "confusion": [
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ]
+  },
+  "prediction_gold_coverage": 1,
+  "judge_vs_manual_correctness": {
+    "n": 11,
+    "matches": 9,
+    "agreement": 0.8181818181818182,
+    "cohen_kappa": 0.38888888888888906,
+    "status": "ok",
+    "labels": [
+      "correct",
+      "incorrect"
+    ],
+    "confusion": [
+      [
+        8,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "judge_eligible_with_gold": 12,
+  "judge_covered_non_uncertain": 11,
+  "judge_coverage": 0.9166666666666666,
+  "judge_matches_over_all_eligible": 0.75,
+  "judge_abstentions": 1,
+  "prediction_sources": {
+    "synthetic_fixture": 12
+  },
+  "judge_sources": {
+    "synthetic_fixture": 12
+  },
+  "dataset_sha256": "4bbe1015e533609fee0e7c965c0e042866e901f15820540538bbb913c1aba615",
+  "notes": [
+    "Cohen kappa uses only items with two definite labels; missing/uncertain excluded and coverage reported.",
+    "Gold is an independently adjudicated reference, not majority vote or a judge output.",
+    "Judge correctness is compared with candidate_label == expert_gold; gold is never sent to the judge.",
+    "All matrices: rows are first argument/reference; columns are second argument/prediction; label order is explicit.",
+    "Fixture sources are synthetic test data and are not evidence of actual human or LLM quality."
+  ]
+}

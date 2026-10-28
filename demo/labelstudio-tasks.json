@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "text": "Обсудим доставку здесь, в чате площадки",
+      "external_id": "demo-01"
+    }
+  },
+  {
+    "id": 2,
+    "data": {
+      "text": "Напиши мне в Telegram: @example_user",
+      "external_id": "demo-02"
+    }
+  },
+  {
+    "id": 3,
+    "data": {
+      "text": "Номер заказа 89261234567, проверь статус",
+      "external_id": "demo-03"
+    }
+  },
+  {
+    "id": 4,
+    "data": {
+      "text": "Пиши на user [собака] example [точка] invalid",
+      "external_id": "demo-04"
+    }
+  },
+  {
+    "id": 5,
+    "data": {
+      "text": "Не переходи в WhatsApp, остаёмся здесь",
+      "external_id": "demo-05"
+    }
+  },
+  {
+    "id": 6,
+    "data": {
+      "text": "Пришли телефон, свяжемся напрямую",
+      "external_id": "demo-06"
+    }
+  },
+  {
+    "id": 7,
+    "data": {
+      "text": "Как настроить уведомления в Telegram?",
+      "external_id": "demo-07"
+    }
+  },
+  {
+    "id": 8,
+    "data": {
+      "text": "Давай продолжим по почте user@example.invalid",
+      "external_id": "demo-08"
+    }
+  },
+  {
+    "id": 9,
+    "data": {
+      "text": "В инструкции указан сайт example.invalid",
+      "external_id": "demo-09"
+    }
+  },
+  {
+    "id": 10,
+    "data": {
+      "text": "Позвони на +0 000 000 00 00, обсудим заказ",
+      "external_id": "demo-10"
+    }
+  },
+  {
+    "id": 11,
+    "data": {
+      "text": "Мне удобно переписываться только на площадке",
+      "external_id": "demo-11"
+    }
+  },
+  {
+    "id": 12,
+    "data": {
+      "text": "Добавляйся в Signal и отправь детали там",
+      "external_id": "demo-12"
+    }
+  }
+]
